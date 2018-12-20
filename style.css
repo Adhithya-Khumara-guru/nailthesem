@@ -1,0 +1,141 @@
+body{
+	background-color: #000000;
+	margin:0;
+	padding:0;
+	font-family: 'Open Sans', sans-serif;
+}
+.logodiv{
+	width:100%;
+	padding-top:3em;
+}
+.logodiv > img{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+.headertext{
+	padding-top:0.1em;
+	width:100%;
+	color:#ffffff;
+	text-align: center;
+	font-weight:500;
+	font-size:90;
+	cursor:default;
+}
+.tagline{
+	
+	color:#86c232;
+	font-weight:300;
+	cursor:default;
+}
+#fixedbutton {
+	font-family: 'ZCOOL XiaoWei', serif;
+	background-color: #86c232;
+	border:solid;
+	color:#ffffff	;
+	font-size:25;
+	border-color: #86c232;
+	border-radius:10px;
+    position: fixed;
+    top: 2em;
+    right:1em; 
+    z-index:99;
+    cursor:pointer;
+}
+#fixedbutton:hover{
+	background-color:#000000;
+	color:#86c232;
+	margin-color:#61892f;
+}
+.components{
+	margin-top:1em;
+	/*background: #ffffff;*/
+	height:27em;
+	display:grid;
+	grid-template-columns:1fr 1fr;
+	grid-row-gap:1em;
+	grid-column-gap:1em;
+}
+.wetxt{
+	
+	font-size:80;
+	color:#ffffff;
+	cursor:pointer;
+}
+.motto{
+	padding-top:5em;
+	height:25em;	
+	background-image:url(motto.png);
+	color:#ffffff;
+	text-align:center;
+}
+.support{
+	padding-top:5em;
+	height:25em;	
+	background-image:url(support.jpg);
+	color:#ffffff;
+	text-align:center;
+	margin-bottom: 1em;
+}
+.contact{
+	text-align:center;
+  	width:100%;
+}
+.cheader{
+	color:#86c232;
+	text-align:center;
+	font-size:40;
+	font-weight:100;
+}
+#gtext{
+	
+	cursor:default;
+}
+#etext{
+	padding-top:1.5em;
+	line-height: 1.3em;	
+	font-family: 'ZCOOL XiaoWei', serif;
+	margin:0;
+	color:#fafafa;
+	font-size:20;
+	font-weight:100;
+	cursor:default;
+}
+.slide{
+	text-align:center;
+	color:#fafafa;
+	font-family: 'ZCOOL XiaoWei', serif;
+	text-align:center;
+	line-height: 1em;
+	font-size:27;
+}
+.slidecontent{
+	color:#fafafa;
+	font-family: 'ZCOOL XiaoWei', serif;
+	text-align:center;
+	padding:2em;
+	line-height: 2em;
+	font-size:20;
+	cursor:default;
+}
+hr{
+	height: 10px;
+	margin-left:40em;
+	margin-right:40em;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #61892f inset;
+}
+.weexp{
+	
+	display:none;
+	font-size:50;
+	color:#fafafa;
+	cursor:pointer;
+}
+.wwpexp{
+	
+	display:none;
+	font-size:35;
+	color:#fafafa;
+	cursor:pointer;
+}
