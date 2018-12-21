@@ -63,6 +63,7 @@ body{
 	cursor:pointer;
 }
 .motto{
+	overflow:auto;
 	padding-top:3em;
 	height:25em;	
 	background-image:url(motto.png);
@@ -70,7 +71,7 @@ body{
 	text-align:center;
 }
 .support{
-	overflow: auto;
+	overflow:auto;
 	padding-top:1em;
 	height:25em;	
 	background-image:url(support.jpg);
@@ -120,6 +121,7 @@ body{
 	cursor:default;
 }
 hr{
+
 	height: 10px;
 	margin-left:40em;
 	margin-right:40em;
@@ -128,16 +130,18 @@ hr{
 }
 .weexp{
 	
+	overflow:auto;
 	display:none;
 	font-size:50;
 	color:#fafafa;
 	cursor:pointer;
 }
 .wwpexp{
-	overflow: auto;
+	
+	overflow:auto;
 	text-align: left;
 	display:none;
-	font-size:35;
+	font-size:2em;
 	color:#fafafa;
 	cursor:pointer;
 }
