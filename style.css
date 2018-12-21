@@ -58,7 +58,7 @@ body{
 }
 .wetxt{
 	
-	font-size:70;
+	font-size:80;
 	color:#ffffff;
 	cursor:pointer;
 }
@@ -128,14 +128,14 @@ hr{
 .weexp{
 	
 	display:none;
-	font-size:35;
+	font-size:50;
 	color:#fafafa;
 	cursor:pointer;
 }
 .wwpexp{
-	text-align:left;
+	text-align: left;
 	display:none;
-	font-size:30;
+	font-size:35;
 	color:#fafafa;
 	cursor:pointer;
 }
